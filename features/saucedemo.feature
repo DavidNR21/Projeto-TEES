@@ -26,4 +26,4 @@ História: Como usuário do e-commerce, quero gerenciar meu carrinho e finalizar
     E eu sigo para a página de Checkout
     Quando eu preencho as informações: "Nome", "Sobrenome" e "12345"
     E clico em "Finish"
-    Então eu devo ver a mensagem de agradecimento "Obrigado pelo seu pedido!"
+    Então eu devo ver a mensagem de agradecimento "Thank you for your order!"
