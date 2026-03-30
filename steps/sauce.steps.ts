@@ -37,7 +37,6 @@ Then('o ícone do carrinho deve mostrar {string} item', async ({ page }, qtd) =>
 });
 
 Given('que eu tenho um item no carrinho', async ({ page }) => {
-  // Reaproveita o login e adiciona item
   await page.goto('https://www.saucedemo.com/');
   await page.locator('[data-test="username"]').fill('standard_user');
   await page.locator('[data-test="password"]').fill('secret_sauce');
